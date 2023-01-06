@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/my"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите пункт меню"
+        android:textSize="26sp"
+        android:background="#e8eaf6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057"
+        android:textColor="@color/purple_200"
+        />
+
+    <Button
+        android:id="@+id/printTree"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/black"
+        android:text="Вывод дерева"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/insertTree"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+        android:text="Добавить элемент"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/printTree" />
+
+    <Button
+        android:id="@+id/deleteTree"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+        android:text="Удалить элемент"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insertTree" />
+
+    <Button
+        android:id="@+id/clearTree"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+        android:text="Очистить дерево"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deleteTree" />
+
+    <Button
+        android:id="@+id/changeTypeTree"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+        android:text="Поменять тип данных"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clearTree" />
+
+
+    <!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="хуй на!"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
